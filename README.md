@@ -1,38 +1,33 @@
-# create-svelte
+# Implement JWT Authentication in SvelteKit API Routes
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+In this tutorial, we'll delve into the implementation of JSON Web Token (JWT) authentication within SvelteKit. We'll be using TypeScript along with Prisma, a popular Object-Relational Mapping (ORM) tool for Node.js. 
 
-## Creating a project
+![Implement JWT Authentication in SvelteKit API Routes](https://codevoweb.com/wp-content/uploads/2023/08/Implement-JWT-Authentication-in-SvelteKit-API-Routes.webp)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Topics Covered
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- Running the SvelteKit JWT App Locally
+- Setting up the SvelteKit Project
+- Setting up a PostgreSQL Database
+    - Optional: Using Docker
+- Setting up Prisma ORM
+- Connecting to Database
+- Creating the Request Validation Schemas
+- Signing and Verifying JSON Web Tokens
+    - Sign JWTs
+    - Verify JWTs
+- Creating the SvelteKit API Endpoints
+    - Registering a User
+    - Logging in a User
+    - Logging out a User
+    - Fetching Authenticated User Data
+- Protecting the API Endpoints with SvelteKit Hooks
+-  Testing the JWT Application
+    - Sign Up
+    - Sign In
+    - Accessing Protected Route
+    - Sign Out
+- Conclusion
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Read the entire article here: [https://codevoweb.com/implement-jwt-authentication-in-sveltekit-api-routes/](https://codevoweb.com/implement-jwt-authentication-in-sveltekit-api-routes/)
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
